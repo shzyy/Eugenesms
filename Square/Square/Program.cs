@@ -11,9 +11,15 @@
             {
                 for (int j = 0; j < size; j++)    
                 {
-                    Console.Write("*");
+                    Console.Write("* ");
                 }
                 Console.WriteLine();
             }
+            // arvutame ümbermõõdu ja pindala
+            int perimeter = 4 * size;
+            int area = size * size;
+
+            Console.WriteLine($"Ruudu ümbermõõt: {perimeter}");
+            Console.WriteLine($"Ruudu pindala: {area}");
         }
     }    }
